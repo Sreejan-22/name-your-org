@@ -1,0 +1,26 @@
+.card {
+  display: inline-block;
+  background-color: #282d4f;
+  /* border: 2px solid goldenrod; */
+  color: #e7e9f0;
+  border-radius: 15px;
+  margin: 10px 15px;
+  min-width: 75px;
+  text-align: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card:hover {
+  background-color: #4a5079;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.card-text {
+  margin: 0px;
+  font-weight: 200;
+}

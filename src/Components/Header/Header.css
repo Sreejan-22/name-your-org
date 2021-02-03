@@ -1,0 +1,37 @@
+.head-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.head-text {
+  font-family: "Shadows Into Light Two", cursive;
+  text-align: center;
+  transition: font-size 1s;
+}
+
+.head-text-expanded {
+  font-size: 3rem;
+}
+
+.head-text-contracted {
+  font-size: 1rem;
+}
+
+.head-img {
+  width: auto;
+  /* height: 30%; */
+  transition: max-width 1s, mid-width 1s;
+}
+
+.head-img-expanded {
+  max-width: 40%;
+  min-width: 25%;
+}
+
+.head-img-contracted {
+  max-width: 15%;
+  min-width: 10%;
+}
